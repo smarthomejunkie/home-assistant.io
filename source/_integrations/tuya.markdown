@@ -120,6 +120,8 @@ Click the created project to enter the `Project Overview` page and get the `Auth
     - Incorrect username or password: Enter the correct account and password of the Tuya Smart or Smart Life app in the **Account** and **Password** fields. Note that the app account depends on which app (Tuya Smart or Smart Life) you used to link devices on the [Tuya IoT Platform](https://iot.tuya.com/cloud/).
 
     - Incorrect country. You must select the region of your account of the Tuya Smart app or Smart Life app.
+    
+    - If you experience this error even if you entered the right credentials then in the iot tuya developer, users tab create a new user with the same email and password (and the password should be 11 characters or less and with letter and numbers only)
 
 "1100: param is empty":
   description: Empty parameter of username or app. Please fill the parameters refer to the **Configuration** part above.
